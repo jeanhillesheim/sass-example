@@ -1,0 +1,23 @@
+.panel {
+  border: 1px solid $main-color;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-panel {
+  @extend .panel;
+  width: 0%;
+  flex-grow: 1;
+  display:inline-block;
+}
+
+.panel-even {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.main-content {
+  width: 100%;
+}

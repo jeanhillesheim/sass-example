@@ -1,0 +1,30 @@
+.text {
+  color: $text-color;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.title {
+  @extend .text;
+  color: $title-color;
+  border-bottom: 2px solid $title-color;
+}
+
+.main-title {
+  @extend .title;
+  font-size: 1.7em;
+}
+
+.subtitle {
+  @extend .title;
+  font-size: 1.2em;
+}
+
+.main-paragraph {
+  @extend .text;
+  font-size: 1.3em;
+}
+
+.paragraph {
+  @extend .text;
+  font-size: 1.1em;
+}

@@ -1,0 +1,53 @@
+$title-color: #3c626d;
+$main-color: #eeeeee;
+$link-color: #ff735d;
+$text-color: #777;
+
+@import "buttons";
+@import "panels";
+@import "typography";
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  ul {
+    text-align: center;
+    font-size:1.6em;
+    background: $title-color;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding: 15px 10px;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+  }
+
+  li:hover {
+    background: $main-color;
+  }
+}
+
+.clear-float {
+  clear: both;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  width: 100%;
+  display: block;
+}
+
+.center {
+  text-align: center;
+}

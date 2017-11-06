@@ -1,0 +1,78 @@
+button {
+  background: #3c626d;
+  color: #ff735d;
+  border-radius: 8px;
+  font-size: 1em;
+  padding: 10px; }
+
+.panel, .small-panel {
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.small-panel {
+  width: 0%;
+  flex-grow: 1;
+  display: inline-block; }
+
+.panel-even {
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.main-content {
+  width: 100%; }
+
+.text, .title, .main-title, .subtitle, .main-paragraph, .paragraph {
+  color: #777;
+  font-family: 'Saira Semi Condensed', sans-serif; }
+
+.title, .main-title, .subtitle {
+  color: #3c626d;
+  border-bottom: 2px solid #3c626d; }
+
+.main-title {
+  font-size: 1.7em; }
+
+.subtitle {
+  font-size: 1.2em; }
+
+.main-paragraph {
+  font-size: 1.3em; }
+
+.paragraph {
+  font-size: 1.1em; }
+
+body {
+  width: 80%;
+  margin: 0 auto; }
+
+nav ul {
+  text-align: center;
+  font-size: 1.6em;
+  background: #3c626d;
+  list-style: none; }
+nav li {
+  display: inline-block;
+  padding: 15px 10px; }
+nav a {
+  color: #ff735d;
+  text-decoration: none; }
+nav li:hover {
+  background: #eeeeee; }
+
+.clear-float {
+  clear: both; }
+
+fieldset {
+  border: none; }
+
+legend {
+  width: 100%;
+  display: block; }
+
+.center {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
